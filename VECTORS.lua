@@ -3,7 +3,7 @@ Vectors.__index = Vector4
 
 --// this is SUCH A PIECE OF SHIT CODE OH MY GU FUCKING GOD!!!!!!!!! AHHH RAHGHH 🗣️🗣️🗣️🗣️🗣️🗣️🗣️🗣️🗣️
 
-function Vectors.createV2(x,y)
+function Vectors.CV2(x,y)
 	local self = setmetatable({}, Vector4)
 
 	self.x = x or 0
@@ -12,7 +12,7 @@ function Vectors.createV2(x,y)
 	return self
 end
 
-function Vectors.createV3(x,y,z)
+function Vectors.CV3(x,y,z)
 	local self = setmetatable({}, Vector4)
 
 	self.x = x or 0
@@ -22,7 +22,7 @@ function Vectors.createV3(x,y,z)
 	return self
 end
 
-function Vectors.createV4(x,y,z,w)
+function Vectors.CV4(x,y,z,w)
 	local self = setmetatable({}, Vector4)
 
 	self.x = x or 0
