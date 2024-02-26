@@ -1,4 +1,6 @@
 local gerstner = {}
+local m = require("VECTORS") --gay shit fuck piss cum oh my god 😭😭😭😭😭
+
 
 function gerstner.GetTransform(WaveData, GridP, RunTime)
 	local p = m.CV3()
