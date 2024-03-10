@@ -1,6 +1,6 @@
 local Quadtree = {}
 Quadtree.__index = Quadtree
---[[
+
 function Quadtree.new(GridStart, GridEnd, Children, Depth)
 	local self = setmetatable({}, Quadtree)
 
@@ -113,5 +113,5 @@ function Quadtree:GetChildrenInQuad(Children)
 
 	return newChildren
 end
-]]
+
 return Quadtree
